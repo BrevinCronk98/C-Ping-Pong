@@ -11,14 +11,11 @@ static void Main()
     
     string stringUserInput = Console.ReadLine(); 
     int intUserInput = int.Parse(stringUserInput);
-    inputArray.Add(stringUserInput);
-    // inputArray.ForEach(Console.WriteLine);
-    // Console.WriteLine(inputArray.Count);
-
-
+   
+   
    
 
-      for(int i = 0; i <= intUserInput; i++){
+      for(int i = 1; i <= intUserInput; i++){
           if ( i % 15 == 0){
             inputArray.Add("Ping Pong");
           }else if (  i % 5 == 0){
